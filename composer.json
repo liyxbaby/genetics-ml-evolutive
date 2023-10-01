@@ -7,4 +7,9 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "TinCat\\Evolutive\\": "sr
+            "TinCat\\Evolutive\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name":
