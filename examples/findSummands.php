@@ -10,4 +10,7 @@
 
 	class FindSummandsSpecimen extends Evolutive\Specimen {
 		public $desiredResult = 10;
-		public $result
+		public $result;
+		
+		public function FindSummandsSpecimen($dna = false) {
+			$this->baseDna = new Evo
