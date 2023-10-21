@@ -13,4 +13,6 @@
 		public $result;
 		
 		public function FindSummandsSpecimen($dna = false) {
-			$this->baseDna = new Evo
+			$this->baseDna = new Evolutive\Dna([
+				"summandA" => new Evolutive\Gene(),
+				"summandB" => new Ev
