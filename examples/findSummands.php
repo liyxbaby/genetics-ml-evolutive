@@ -20,4 +20,5 @@
 			parent::Specimen($dna);
 		}
 
-		public functio
+		public function run($parameters) {
+			$this->result = $this->getDna()->getGene("summandA")->getValue()
