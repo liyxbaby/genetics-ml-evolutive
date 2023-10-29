@@ -21,4 +21,7 @@
 		}
 
 		public function run($parameters) {
-			$this->result = $this->getDna()->getGene("summandA")->getValue()
+			$this->result = $this->getDna()->getGene("summandA")->getValue() + $this->getDna()->getGene("summandB")->getValue();
+		}
+
+		public function getFitness() {
