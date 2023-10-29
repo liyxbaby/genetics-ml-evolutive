@@ -26,4 +26,6 @@
 
 		public function getFitness() {
 			if ($this->desiredResult > $this->result)
-				$delta = $this->de
+				$delta = $this->desiredResult - $this->result;
+			else
+				$delta = $this->result -
