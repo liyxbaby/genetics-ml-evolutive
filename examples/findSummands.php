@@ -28,4 +28,5 @@
 			if ($this->desiredResult > $this->result)
 				$delta = $this->desiredResult - $this->result;
 			else
-				$delta = $this->result -
+				$delta = $this->result - $this->desiredResult;
+			return $this->desiredResult - $del
