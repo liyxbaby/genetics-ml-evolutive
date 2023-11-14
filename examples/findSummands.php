@@ -29,4 +29,9 @@
 				$delta = $this->desiredResult - $this->result;
 			else
 				$delta = $this->result - $this->desiredResult;
-			return $this->desiredResult - $del
+			return $this->desiredResult - $delta;
+		}
+	}
+
+	$nursery = new Evolutive\Nursery;
+	$specimen = $nurse
