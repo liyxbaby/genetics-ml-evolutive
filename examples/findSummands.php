@@ -34,4 +34,6 @@
 	}
 
 	$nursery = new Evolutive\Nursery;
-	$specimen = $nurse
+	$specimen = $nursery->evolve([
+		"isDebug" => true,
+		"specimenClassName" => "F
