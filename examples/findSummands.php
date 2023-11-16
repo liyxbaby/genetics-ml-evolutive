@@ -36,4 +36,7 @@
 	$nursery = new Evolutive\Nursery;
 	$specimen = $nursery->evolve([
 		"isDebug" => true,
-		"specimenClassName" => "F
+		"specimenClassName" => "FindSummandsSpecimen",
+		"specimensPerGeneration" => 10,
+		"generations" => 1000,
+		"m
