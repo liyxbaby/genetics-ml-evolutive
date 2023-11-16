@@ -39,4 +39,7 @@
 		"specimenClassName" => "FindSummandsSpecimen",
 		"specimensPerGeneration" => 10,
 		"generations" => 1000,
-		"m
+		"maxAttemptsPerGeneration" => 10
+	]);
+
+	echo "Solution found by the fittest spec
