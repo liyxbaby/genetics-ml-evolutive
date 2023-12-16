@@ -42,4 +42,4 @@
 		"maxAttemptsPerGeneration" => 10
 	]);
 
-	echo "Solution found by the fittest specimen: ".$specimen->getDna()->getGene("summandA")->getValue()." + ".$specimen->getDna()->getGene("summandB")->getValue()." = ".($specimen->
+	echo "Solution found by the fittest specimen: ".$specimen->getDna()->getGene("summandA")->getValue()." + ".$specimen->getDna()->getGene("summandB")->getValue()." = ".($specimen->getDna()->getGene("summandA")->getValue() + $specimen->getDna()->getGe
