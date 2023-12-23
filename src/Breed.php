@@ -11,4 +11,6 @@ class Breed {
 			$this->specimens[] = $baseSpecimen->breed($runParameters);
 	}
 
-	public fu
+	public function getFittestSpecimen() {
+		$bestFit = null;
+		$bestF
