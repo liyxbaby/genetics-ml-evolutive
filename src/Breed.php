@@ -13,4 +13,6 @@ class Breed {
 
 	public function getFittestSpecimen() {
 		$bestFit = null;
-		$bestF
+		$bestFitSpecimen = false;
+		foreach ($this->specimens as $specimen) {
+			$fitnes
