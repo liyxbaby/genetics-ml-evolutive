@@ -21,3 +21,8 @@ class Breed {
 				$bestFitSpecimen = $specimen;
 			}
 		}
+		reset($this->specimens);
+		return $bestFitSpecimen;
+	}
+
+	public function getAvera
