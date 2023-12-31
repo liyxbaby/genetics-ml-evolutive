@@ -25,4 +25,6 @@ class Breed {
 		return $bestFitSpecimen;
 	}
 
-	public function getAvera
+	public function getAverageFitness() {
+		foreach ($this->specimens as $specimen)
+			$fitness += $specimen
