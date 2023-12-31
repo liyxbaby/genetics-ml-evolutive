@@ -17,3 +17,7 @@ class Breed {
 		foreach ($this->specimens as $specimen) {
 			$fitness = $specimen->getFitness();
 			if ($fitness > $bestFit || $bestFit == null) {
+				$bestFit = $fitness;
+				$bestFitSpecimen = $specimen;
+			}
+		}
