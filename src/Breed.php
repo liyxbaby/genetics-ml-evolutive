@@ -33,4 +33,6 @@ class Breed {
 	}
 
 	public function getDebug() {
-		foreach ($th
+		foreach ($this->specimens as $specimen)
+			$r .= $specimen->getDebug()."\n";
+		return $r;
