@@ -36,3 +36,5 @@ class Breed {
 		foreach ($this->specimens as $specimen)
 			$r .= $specimen->getDebug()."\n";
 		return $r;
+	}
+}
