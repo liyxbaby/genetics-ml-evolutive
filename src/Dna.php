@@ -5,4 +5,8 @@ namespace TinCat\Evolutive;
 class Dna {
 	private $genes;
 
-	public function __
+	public function __construct($genes) {
+		$this->genes = $genes;
+	}
+
+	public function __clone() 
