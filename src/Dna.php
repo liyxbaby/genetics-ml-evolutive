@@ -9,4 +9,7 @@ class Dna {
 		$this->genes = $genes;
 	}
 
-	public function __clone() 
+	public function __clone() {
+		$oldGenes = $this->genes;
+		$this->genes = [];
+		
