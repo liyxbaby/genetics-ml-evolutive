@@ -12,4 +12,8 @@ class Dna {
 	public function __clone() {
 		$oldGenes = $this->genes;
 		$this->genes = [];
-		
+		foreach ($oldGenes as $geneName => $gene)
+			$this->genes[$geneName] = clone $gene;
+	}
+
+	publ
