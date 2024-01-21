@@ -16,4 +16,6 @@ class Dna {
 			$this->genes[$geneName] = clone $gene;
 	}
 
-	publ
+	public function mutate() {
+		foreach ($this->genes as $gene)
+			$g
