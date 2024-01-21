@@ -22,4 +22,7 @@ class Dna {
 		reset($this->genes);
 	}
 
-	public function alterMutagen()
+	public function alterMutagen() {
+		foreach ($this->genes as $gene)
+			$gene->alterMutagen();
+		reset($t
