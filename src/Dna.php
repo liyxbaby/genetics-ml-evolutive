@@ -25,4 +25,8 @@ class Dna {
 	public function alterMutagen() {
 		foreach ($this->genes as $gene)
 			$gene->alterMutagen();
-		reset($t
+		reset($this->genes);
+	}
+
+	public function getGene($geneName) {
+		return $this->genes
