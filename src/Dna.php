@@ -18,4 +18,8 @@ class Dna {
 
 	public function mutate() {
 		foreach ($this->genes as $gene)
-			$g
+			$gene->mutate();
+		reset($this->genes);
+	}
+
+	public function alterMutagen()
