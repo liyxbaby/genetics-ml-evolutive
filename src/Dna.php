@@ -29,4 +29,9 @@ class Dna {
 	}
 
 	public function getGene($geneName) {
-		return $this->genes
+		return $this->genes[$geneName];
+	}
+
+	public function getDebug() {
+		if (!is_array($this->genes))
+			
