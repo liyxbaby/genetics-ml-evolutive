@@ -36,4 +36,6 @@ class Dna {
 		if (!is_array($this->genes))
 			return "No genes";
 		foreach ($this->genes as $geneName => $gene)
-			$r .=
+			$r .= "[".$geneName.":".$gene->getDebug()."] ";
+		reset($this->genes);
+		
