@@ -38,4 +38,6 @@ class Dna {
 		foreach ($this->genes as $geneName => $gene)
 			$r .= "[".$geneName.":".$gene->getDebug()."] ";
 		reset($this->genes);
-		
+		return $r;
+	}
+}
