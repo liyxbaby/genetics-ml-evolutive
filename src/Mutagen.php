@@ -21,3 +21,5 @@ class Mutagen {
 
 	public function getDebug() {
 		return "M".$this->offset;
+	}
+}
