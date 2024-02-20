@@ -3,4 +3,5 @@ A library to study evolutive, genetics-based machine learning algorithms in an o
 
 ## The Ingredients
 Evolutive revolves around the following classes, each representing crucial components in this mechanics:
-- **Nursery** Facilitates all breeding of Specimens, mirroring an evolutive proce
+- **Nursery** Facilitates all breeding of Specimens, mirroring an evolutive procedure.
+- **Breed** Symbolizes a group of Specimens 
