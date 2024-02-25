@@ -7,4 +7,5 @@ Evolutive revolves around the following classes, each representing crucial compo
 - **Breed** Symbolizes a group of Specimens bred from an original Dna.
 - **Specimen** Represents a distinct Specimen carrying specific Dna.
 - **Dna** Holds all the differential traits of the Specimen it is a part of. It contains Genes.
-- **Gene** Represents a c
+- **Gene** Represents a characteristic of a Specimen. It contains a Mutagen.
+- **Mutagen** Represent
