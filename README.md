@@ -6,4 +6,5 @@ Evolutive revolves around the following classes, each representing crucial compo
 - **Nursery** Facilitates all breeding of Specimens, mirroring an evolutive procedure.
 - **Breed** Symbolizes a group of Specimens bred from an original Dna.
 - **Specimen** Represents a distinct Specimen carrying specific Dna.
-- **Dna** Holds all the differential trait
+- **Dna** Holds all the differential traits of the Specimen it is a part of. It contains Genes.
+- **Gene** Represents a c
