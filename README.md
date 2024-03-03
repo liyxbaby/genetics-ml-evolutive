@@ -8,4 +8,4 @@ Evolutive revolves around the following classes, each representing crucial compo
 - **Specimen** Represents a distinct Specimen carrying specific Dna.
 - **Dna** Holds all the differential traits of the Specimen it is a part of. It contains Genes.
 - **Gene** Represents a characteristic of a Specimen. It contains a Mutagen.
-- **Mutagen** Represents external influences causing Specimens' differences by mutating a gene. Mutagens alter Genes in a unique way (an offset) when a Gene is mutated (mutation t
+- **Mutagen** Represents external influences causing Specimens' differences by mutating a gene. Mutagens alter Genes in a unique way (an offset) when a Gene is mutated (mutation takes place when a Specimen is bred). The simulated evolutive procedure tries 
