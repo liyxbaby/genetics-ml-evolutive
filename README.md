@@ -11,4 +11,5 @@ Evolutive revolves around the following classes, each representing crucial compo
 - **Mutagen** Represents external influences causing Specimens' differences by mutating a gene. Mutagens alter Genes in a unique way (an offset) when a Gene is mutated (mutation takes place when a Specimen is bred). The simulated evolutive procedure tries to preserve Mutagens leading to better fitness and mutates ones that offer less fitness.
 
 ## The Procedure
-1. **The Zero Specimen** First, a specimen is 
+1. **The Zero Specimen** First, a specimen is created to set the base for breeding.
+2. **Generation Breeding** 
