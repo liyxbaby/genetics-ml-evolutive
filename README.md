@@ -12,4 +12,4 @@ Evolutive revolves around the following classes, each representing crucial compo
 
 ## The Procedure
 1. **The Zero Specimen** First, a specimen is created to set the base for breeding.
-2. **Generation Breeding** 
+2. **Generation Breeding** Generations of specimens are bred sequentially, utilizing the best
