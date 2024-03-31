@@ -14,4 +14,6 @@ Evolutive revolves around the following classes, each representing crucial compo
 1. **The Zero Specimen** First, a specimen is created to set the base for breeding.
 2. **Generation Breeding** Generations of specimens are bred sequentially, utilizing the best fitted Specimen from the last generation as the base Specimen for the next. For the initial generation, the zero specimen serves as the base Specimen.
 3. **Evolution at Work** Each Specimen in a generation is a mutation from the generation's base Specimen. If from a generation, the best fitted Specimen is less fitted than the previous one, the entire generation will be discarded and breed again. This situation has a particular max limit of occurrence.
-4. **Mutagen** Mutagens mutate Genes in a specific way. When a Mutagen is altered, the Gene mutation will occur in a randomly different way (to generate diversity). An unaltered Mutagen will mutate the Gene similarly (to preserve Mutagens believed to yield better fitted Specimens). Mutagens are altered for each new breeded Sp
+4. **Mutagen** Mutagens mutate Genes in a specific way. When a Mutagen is altered, the Gene mutation will occur in a randomly different way (to generate diversity). An unaltered Mutagen will mutate the Gene similarly (to preserve Mutagens believed to yield better fitted Specimens). Mutagens are altered for each new breeded Specimen.
+
+For more detailed explaination and example usage in
